@@ -1,0 +1,201 @@
+
+<!-- NOTE: HTML Code, CSS, and JS barrowed from https://designmodo.com/bootstrap-4-tutorial/-->
+<!-- Code has been zombified to meet simple mockup standards -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>Pizza Time</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+ <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/custom.css">
+ <!-- Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600,700,900' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+<!--wrapper start-->
+<div class="wrapper" id="wrapper">
+	
+	<!--header-->
+	<header>
+	<div class="jumbotron jumbotron-fluid" id="banner">		
+		<div class="parallax text-center" style="background-image: url(img/cover.jpg);">
+			<div class="parallax-pattern-overlay">
+				<div class="container text-center" id="size-banner">
+					<a href="#"><img id="site-title" src="img/logo.png" alt="logo"/></a>
+					<h2 class="display-2">Pizza Time</h2>
+					<h3 class="learn">Delivered right to you're door. Locally sourced and locally delivered</h3>
+				</div>
+			</div>
+		</div>
+	</div>	
+
+
+
+	</header>
+		
+	<!--about us-->
+	<section class="aboutus" id="aboutus">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+		<div class="heading text-center">
+			<img class="dividerline" src="img/sep.png" alt="">
+			<h2>A Simple Menu</h2>
+
+			<img class="dividerline" src="img/sep.png" alt="">
+			<h3>Our application finds local pizza creators in your area and finds the fastest, cheapest, and delicous options.</h3>
+			</div>	
+			</div>		
+		</div>			
+		<div class="row">
+			<div class="col-md-3">
+			<div class="card">
+			  <img class="card-img-top" src="img/card1.jpg" alt="Card image cap">
+			  <div class="card-block">
+			    <h4 class="card-title">Cheese</h4>
+			    <p class="card-text">Cheap, easy, and fit for all ages with tastebuds.</p>
+			    <a href="https://www.dominos.com/en/?lang=en" class="btn btn-primary">Add To Cart</a>
+		  	</div>
+			</div>
+		</div>
+
+		<div class="col-md-3">
+			<div class="card card-inverse card-primary text-center">
+			  <img class="card-img-top" src="img/card2.jpg" alt="Card image cap">
+			  <div class="card-block">
+			    <h4 class="card-title">Pepperoni</h4>
+			    <p class="card-text">The mutant turtle approved classic pizza.</p>
+			    <a href="https://littlecaesars.com/en-us/" class="btn btn-primary">Add To Cart</a>
+		  	</div>
+			</div>
+		</div>
+
+
+		<div class="col-md-3">
+			<div class="card card-inverse card-success text-center">
+			  <img class="card-img-top" src="img/card3.jpg" alt="Card image cap">
+			  <div class="card-block">
+			    <h4 class="card-title">Vegan</h4>
+			    <p class="card-text">100% Vegan. 100% Organic. 100% Bland.</p>
+			    <a href="https://www.youtube.com/watch?v=oHC1230OpOg" class="btn btn-primary">Add To Cart</a>
+		  	</div>
+			</div>
+		</div>
+
+		<div class="col-md-3">
+			<div class="card card-inverse card-info text-center">
+			  <img class="card-img-top" src="img/card4.jpg" alt="Card image cap">
+			  <div class="card-block">
+			    <h4 class="card-title">Create You're Own</h4>
+			    <p class="card-text">Pineapple? Mushrooms? Why Not Both?</p>
+			    <a href="https://www.youtube.com/watch?v=vgk-lA12FBk" class="btn btn-primary">Get Started</a>
+		  	</div>
+			</div>
+		</div>
+
+		</div>
+	</div>
+	</section>
+	
+	<!--Contact Us-->
+	<section class="contact" id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+		<div class="heading">
+				<img class="dividerline" src="img/sep.png" alt="">
+				<h2>Give us you're money $$$</h2>
+				<img class="dividerline" src="img/sep.png" alt="">
+				<h3>Feel free to include DOB, Social Security, and Bank Account Numbers!
+				</h3>
+			</div>
+		</div>
+		</div>
+	</div>
+	 <div class="container mx-width">
+      <div class="row">
+		<div class="done">
+			<div class="alert alert-success">
+				<button type="button" class="close" data-dismiss="alert">×</button>
+				Your message has been sent. Thank you!
+			</div>
+		</div>
+
+       <div class="col-md-12">
+            <form>
+                <fieldset class="form-group">
+                    <input type="text" class="form-control" id="Name" placeholder="Name">
+                </fieldset>
+
+                <fieldset class="form-group">
+                    <input type="email" class="form-control" id="Email" placeholder="Email">
+				</fieldset>
+				
+				<fieldset class="form-group">
+						<input type="text" class="form-control" id="Credit Card" placeholder="Visa, MasterCard, American Express, Bitcoin wallet, etc...">
+				</fieldset>
+
+				<fieldset class="form-group">
+						<input type="text" class="form-control" id="Address" placeholder="Address">
+				</fieldset>
+
+				<fieldset class="form-group">
+						<input type="text" class="form-control" id="City" placeholder="City">
+				</fieldset>
+
+				<fieldset class="form-group">
+						<input type="text" class="form-control" id="State" placeholder="State">
+				</fieldset>
+
+                <fieldset class="form-group">
+                    <textarea class="form-control" rows="3" placeholder="Additional Information"></textarea>
+                </fieldset>
+                
+                <button type="submit" class="contact submit">Submit</button>
+            </form>
+        </div>
+
+
+      </div>
+    </div>
+	</section>
+  
+	<!--footer-->
+	<section class="footer" id="footer">
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+	</div>
+		</div>
+			</div>
+	</section>
+	
+</div>
+<!--wrapper end-->
+
+
+ <!-- JavaScripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/tether.min.js"></script>
+
+<script type="text/javascript">
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})	
+
+</script>
+
+</body>
+</html>
