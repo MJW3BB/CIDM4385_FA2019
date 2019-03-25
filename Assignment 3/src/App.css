@@ -1,0 +1,4 @@
+/* This override is here to make the Jumbotron behave as it sits uner a fixed navbar in BS4 */
+body {
+    margin-top: 50px;
+}
